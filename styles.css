@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.father{
+    background-color: hsl(0, 3%, 7%);
+    width: 300px;
+    height: max-content;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+}
+.box1 .profile{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: max-content;
+}
+.profile img{
+    height: 86px;
+    width: 77px;
+    border-radius: 60%;
+}
+@media screen and (min-width:375px) {
+ 
+    .father{
+        width: 300px;
+    }
+}
+.text{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.text h5{
+    color: hsl(75, 94%, 57%);
+    margin-top: 10px;
+    margin-left: 19px;
+}
+.text h6{
+    margin-top: 20px;
+    margin-left: -10px;
+    font-weight: 100;
+    font-size: 14px;
+}
+.github{
+    background-color: hsl(0, 0%, 12%);
+    width: 104%;
+    margin-top: 20px;
+    height: 40px;
+    margin-left: -31px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    border-radius: 8px;
+    color: rgb(255, 252, 252);
+}
+.github a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 254, 254);
+    background-color: transparent;
+    text-decoration: none;
+}
+.github:hover{
+    background-color:  hsl(75, 94%, 57%);
+    color: black;
+    font-weight: bolder;
+}
+.github a:hover{
+    background-color:  hsl(75, 94%, 57%);
+    color: black;
+    font-weight: bolder;
+}
